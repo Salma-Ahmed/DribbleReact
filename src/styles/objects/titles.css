@@ -1,0 +1,18 @@
+.title{
+  color: var(--dark-color);
+  line-height: 1.5;
+  &--main{
+    font-size: 24px;
+    margin: 16px 0px;
+  }
+  &--primary{
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  &--secondary{
+    font-size: 16px;
+  }
+  &--small{
+    font-size: 13px;
+  }
+}

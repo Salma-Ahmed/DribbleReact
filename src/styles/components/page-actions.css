@@ -1,0 +1,10 @@
+.actions{
+  margin-top: 27px;
+  margin-bottom: 14px;
+  .btn{
+    margin-inline: auto;
+    &:last-of-type{
+      margin-bottom: 20px;
+    }
+  }
+}

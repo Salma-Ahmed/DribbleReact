@@ -1,0 +1,19 @@
+.react {
+  font-size: 11px;
+  margin-inline-start: 5px;
+  padding-inline-start: 18px;
+  line-height: 13px;
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  color: #777;
+  &--views {
+    background-image: url(images/view.png);
+  }
+  &--comments {
+    background-image: url(images/comment.png);
+  }
+  &--likes {
+    background-image: url(images/heart.png);
+  }
+}

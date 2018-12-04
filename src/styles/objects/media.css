@@ -1,0 +1,25 @@
+.media{
+  &__img{
+    margin-inline-end: 8px;
+    float: inline-start;
+    &--small{
+      width: 16px;
+      height: 16px;
+    }
+    &--medium{
+      width: 24px;
+      height: 24px;
+    }
+    &--large{
+      width: 40px;
+      height: 40px;
+    }
+    img{
+      border-radius: 50%;
+      height: inherit;
+    }
+  }
+  &__details{
+    overflow: auto;
+  }
+}
